@@ -15,6 +15,7 @@
   "dependencies": {},
   "devDependencies": {
     "electron": "33.3.0",
-    "electron-packager": "^3.1.0"
+    "electron-packager": "^3.1.0",
+    "lodash": ">=4.17.21"
   }
 }
