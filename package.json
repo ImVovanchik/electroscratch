@@ -1,0 +1,16 @@
+{
+  "name": "electroscratch",
+  "productName": "ElectroScratch",
+  "description": "Клиент Scratch построенный на Electron версии 33.3.0",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Вованчик",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "33.3.0"
+  }
+}

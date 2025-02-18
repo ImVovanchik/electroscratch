@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroScratch (Scratch 3.0, ElectroScratch бета 0.0.1 сборка 3)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        webview {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <webview id="src" src="https://scratch.mit.edu/projects/editor"></webview>
+
+    <script>
+        window.addEventListener('error', function (e) {
+            alert('Произошла ошибка: ' + e.message);
+        });
+    </script>
+</body>
+</html>
