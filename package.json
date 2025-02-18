@@ -4,7 +4,7 @@
   "description": "Клиент Scratch построенный на Electron версии 33.3.0",
   "keywords": [],
   "main": "./main.js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "author": "Вованчик",
   "scripts": {
     "start": "electron .",
