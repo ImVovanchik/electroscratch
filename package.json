@@ -7,10 +7,14 @@
   "version": "1.0.0",
   "author": "Вованчик",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "make-win": "electron-packager . ElectroScratch --platform=win32 --arch=ia32 --version=33.3.0 --overwrite",
+    "make-mac": "electron-packager . ElectroScratch --platform=darwin --arch=x64 --version=33.3.0 --overwrite",
+    "make-linux": "electron-packager . ElectroScratch --platform=linux --arch=x64 --version=33.3.0 --overwrite"
   },
   "dependencies": {},
   "devDependencies": {
-    "electron": "33.3.0"
+    "electron": "33.3.0",
+    "electron-packager": "^3.1.0"
   }
 }
